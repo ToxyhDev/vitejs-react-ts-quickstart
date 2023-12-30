@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Quick Start Project with Vite.js + React / TypeScript 📈</h1>
+<h1 align="center">⚡ Quick Start Project with Vite.js + React / TypeScript ⚛</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="vite.js">
@@ -7,6 +7,15 @@
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
   <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="sass">
 </p>
+
+## Introduction
+
+This project provides a quick start to start a project with **ViteJS** and **React/TypeScript**.
+
+1. The **dependencies** are already added,
+1. The **folder architecture** is set up
+1. **React Router** comes pre-configured.
+1. **Sass** comes pre-configured.
 
 ## Table of Contents
 
