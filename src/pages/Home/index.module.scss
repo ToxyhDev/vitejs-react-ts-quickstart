@@ -1,0 +1,12 @@
+@use '../../global';
+
+.title {
+  @include global.fontSize-title;
+}
+.card {
+  padding: 2em;
+}
+
+.readTheDocs {
+  color: #888;
+}

@@ -1,0 +1,21 @@
+@use '../../global';
+
+.logo {
+  height: 10rem;
+  padding: 2.5rem 1rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em global.$color-tertiary);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em global.$color-primary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: infinite 20s linear;
+    @include global.keyframe-logo-spin;
+  }
+}
