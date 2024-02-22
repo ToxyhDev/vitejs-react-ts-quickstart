@@ -15,14 +15,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   min-height: 100vh;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 body {
   margin: 0;
   display: flex;
   justify-content: center;
-
-  background: variables.$color-gradient;
+  background: variables.$color-surface;
 }
 
 ul,
@@ -40,6 +40,7 @@ a {
 button {
   padding: 0;
   background-color: transparent;
+  border: none;
 }
 
 figure {
@@ -64,8 +65,7 @@ figure {
   flex-direction: column;
 
   color-scheme: light dark;
-  color: variables.$color-surface;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: variables.$color-black;
   background-color: variables.$color-secondary;
 
   margin: 16px 0;

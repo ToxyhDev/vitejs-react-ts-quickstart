@@ -1,5 +1,3 @@
-@use '../../global';
-
 .title {
   @include global.fontSize-title;
 }
